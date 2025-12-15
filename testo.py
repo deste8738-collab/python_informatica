@@ -1,4 +1,4 @@
-# ESEMPIO 1: Calcolatrice con menu
+# modificato 1: Calcolatrice con menu
 def menu():
     """Mostra il menu e restituisce la scelta."""
     print("\n=== CALCOLATRICE ===")
@@ -45,7 +45,6 @@ def calcolatrice():
             elif scelta == "4":
                 print(f"Risultato: {divisione(num1, num2)}")
         else:
-            print("Scelta non valida!")
 
 # Esegui la calcolatrice
 calcolatrice()  # Decommentare per provare
